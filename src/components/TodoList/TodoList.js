@@ -34,8 +34,10 @@ export const TodoList = (props) => {
         ></AccordionSummary>
         {value.data?.map((todo) => {
           return (
-            <div className={styles.detailsContainer}>
-                <div className={styles.description}>
+            <div 
+            className={styles.detailsContainer}>
+                <div 
+                className={styles.description}>
                 <RectIcon className={styles.rectIconClass}/>
               <AccordionDetails  key={todo.id}>
                 {todo.title}
