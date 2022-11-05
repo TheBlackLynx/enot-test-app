@@ -38,8 +38,10 @@ export const TodoList = (props) => {
             className={styles.detailsContainer}>
                 <div 
                 className={styles.description}>
-                <RectIcon className={styles.rectIconClass}/>
-              <AccordionDetails  key={todo.id}>
+                <RectIcon 
+                className={styles.rectIconClass}/>
+              <AccordionDetails  
+              key={todo.id}>
                 {todo.title}
               </AccordionDetails>
                 </div>
